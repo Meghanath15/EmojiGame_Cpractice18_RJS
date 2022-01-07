@@ -1,0 +1,39 @@
+/* Write your code here. */
+.emoji-item {
+  list-style-type: none;
+  width: 20%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+}
+@media screen and (min-width: 992px) {
+  .emoji-item {
+    width: 24%;
+  }
+}
+.emoji-button {
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: #ffffff33;
+  width: 80%;
+  height: 80px;
+  border: 3px solid #ffffff30;
+  border-radius: 24px;
+  cursor: pointer;
+  outline: none;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-button {
+    height: 150px;
+  }
+}
+.emoji-img {
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-img {
+    width: 80px;
+  }
+}
